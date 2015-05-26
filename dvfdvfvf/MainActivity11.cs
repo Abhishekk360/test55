@@ -20,7 +20,7 @@ namespace dvfdvfvf
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
-
+			Console.WriteLine ("hello test");
 			// Get our button from the layout resource,
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.myButton);
